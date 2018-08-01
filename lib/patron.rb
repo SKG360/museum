@@ -1,3 +1,5 @@
+require 'pry'
+
 class Patron
   attr_reader :name, :interests
 
@@ -8,6 +10,7 @@ class Patron
 
   def add_interest(interest_input)
     @interests << interest_input
+    
   end
 
 end
